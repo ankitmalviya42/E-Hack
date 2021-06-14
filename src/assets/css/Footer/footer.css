@@ -1,0 +1,64 @@
+.main-div-footer {
+  background-color: #1a3d28b4;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono";
+}
+.first-column-div {
+  padding: 15% 0% 0% 8%;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.footer-icon {
+  border-radius: 7px;
+  margin-left: 4%;
+  border: 1px solid rgb(255, 253, 252);
+}
+
+/* Second column coe start  */
+
+.Second_Col_Footer {
+  padding: 3%;
+}
+.Second_Column_heading {
+  padding: 8% 5% 10% 5%;
+  color: white;
+}
+.useful-link-list-footer {
+  color: white;
+  padding: 5%;
+}
+.footer_unorder_list {
+  padding: 2%;
+}
+
+/*   Contact us */
+
+.Contact_footer_col_2 {
+  color: white;
+  padding: 1%;
+}
+
+/* Third Column  */
+.Third_Column {
+  padding: 3% 2% 2% 2%;
+}
+.Third_Column_First_Content {
+  color: white;
+  padding: 4%;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+}
+.Third_Column_support_section {
+  padding: 5%;
+  color: white;
+}
+
+/* footer_reserved */
+
+.footer_reserved {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 5px;
+}

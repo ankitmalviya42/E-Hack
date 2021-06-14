@@ -1,0 +1,144 @@
+.Home-div {
+  background-image: linear-gradient(
+    rgb(39, 37, 37),
+    rgba(15, 34, 20, 0.884),
+    rgb(39, 37, 37)
+  );
+}
+.jumborton_card_content {
+  background-color: rgb(252, 73, 73);
+  color: white;
+}
+
+/* Most-popular-post */
+.Most-popular-post {
+  padding: 5%;
+  background-image: linear-gradient(black, rgba(15, 31, 19, 0.822), black);
+}
+.Most-popular-post-card {
+  margin: 2%;
+}
+
+.Most-popular-post-card:hover {
+  color: rgb(6, 204, 32);
+  transition: 1s ease;
+  transform: scale(1.03);
+  /* box-shadow: 10px 12px 20px -10px #47d82a; */
+}
+
+/* Our services */
+
+.Our-services-slider {
+  padding: 3%;
+  color: antiquewhite;
+  text-align: center;
+  font-family: "Courier New", Courier, monospac;
+}
+.Our-services {
+  padding: 3%;
+  background-image: linear-gradient(black, black);
+  color: white;
+  text-align: center;
+}
+.Our-services-card {
+  background-image: linear-gradient(black, black);
+  padding: 3%;
+}
+
+.Our-services-heading {
+  text-align: center;
+  padding: 1%;
+}
+
+.Our-services-paragraph-tag {
+  padding: 3%;
+  text-align: center;
+  border: 1px solid green;
+  box-shadow: 10px 12px 30px -10px green;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.our-course-Heading {
+  text-align: center;
+  padding: 2%;
+  color: white;
+  margin: 2%;
+}
+
+/* our courses image card 
+ */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #000000f1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 50vh;
+}
+.imagecard-container {
+  position: relative;
+  width: 50%;
+  margin-top: 10%;
+}
+
+.imagecard-container:hover .overlay {
+  opacity: 1;
+  box-shadow: -2px 13px 13px -3px rgba(47, 170, 47, 0.753);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* image gallery  */
+
+.main-container-div {
+  background-image: linear-gradient(black, rgba(3, 14, 5, 0.925), black, black);
+}
+
+.text-color-image-gallery {
+  color: white;
+  margin-top: 10%;
+}
+.paragraph-text-size {
+  font-size: 3vh;
+}
+
+.image-gallery-div {
+  padding: 1%;
+  margin: 4%;
+}
+.Image-gallery-img-tag {
+  height: 80vh;
+  width: 100%;
+}
+.consultancy-img-right-column {
+  margin-top: 20%;
+}
+.right-colunm {
+  padding: 2%;
+  margin: 2%;
+}
+.course-name-heading {
+  text-align: center;
+  color: white;
+}
