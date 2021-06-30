@@ -7,9 +7,7 @@ import "../../assets/css/Footer/footer.css";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import RedditIcon from "@material-ui/icons/Reddit";
-import YouTubeIcon from "@material-ui/icons/YouTube";
+
 function Footer(props) {
   return (
     <div>
@@ -25,10 +23,7 @@ function Footer(props) {
                   E-Hack Technology provides services in many areas related to
                   cyber security, especially cybersecurity training consultancy.
                   E-Hack Technology has uniquely positioned itself to help to
-                  solve the cyber skills gap in the industry.{" "}
-                  <a style={{ textDecoration: "none" }} href="#home">
-                    Read More
-                  </a>
+                  solve the cyber skills gap in the industry.
                 </p>
 
                 <br />
@@ -56,18 +51,6 @@ function Footer(props) {
                     className="footer-icon"
                     style={{ fontSize: "35px" }}
                   />
-                  <LinkedInIcon
-                    className="footer-icon"
-                    style={{ fontSize: "35px" }}
-                  />
-                  <RedditIcon
-                    className="footer-icon"
-                    style={{ fontSize: "35px" }}
-                  />
-                  <YouTubeIcon
-                    className="footer-icon"
-                    style={{ fontSize: "35px" }}
-                  />
                 </div>
               </div>
             </Col>
@@ -78,24 +61,60 @@ function Footer(props) {
               </div>
 
               <Row>
-                <Col sm={6}>
+                <Col sm={12}>
                   <div className="useful-link-list-footer">
                     <ul>
-                      <li className="footer_unorder_list">Home</li>
-                      <li className="footer_unorder_list">About</li>
-                      <li className="footer_unorder_list">Training</li>
-                      <li className="footer_unorder_list">Contact</li>
-                    </ul>
-                  </div>
-                </Col>
+                      <li className="footer_unorder_list">
+                        <a
+                          href="/"
+                          style={{
+                            color: "white",
+                          }}
+                        >
+                          Home
+                        </a>
+                      </li>
+                      <li className="footer_unorder_list">
+                        <a
+                          href="/Onlinecourses"
+                          style={{
+                            color: "white",
+                          }}
+                        >
+                          Online Course
+                        </a>
+                      </li>
 
-                <Col sm={6}>
-                  <div className="useful-link-list-footer">
-                    <ul>
-                      <li className="footer_unorder_list">Home</li>
-                      <li className="footer_unorder_list">About</li>
-                      <li className="footer_unorder_list">Training</li>
-                      <li className="footer_unorder_list">Contact</li>
+                      <li className="footer_unorder_list">
+                        <a
+                          href="/Trainings"
+                          style={{
+                            color: "white",
+                          }}
+                        >
+                          Training
+                        </a>
+                      </li>
+                      <li className="footer_unorder_list">
+                        <a
+                          href="/About"
+                          style={{
+                            color: "white",
+                          }}
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li className="footer_unorder_list">
+                        <a
+                          href="/Contact"
+                          style={{
+                            color: "white",
+                          }}
+                        >
+                          Contact
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </Col>
@@ -109,9 +128,17 @@ function Footer(props) {
                   </div>
                   <div>
                     <br />
-                    <p>33 Cavendish, London W1G 0PW, UK </p>
-                    <p>infohackeracademy.uk</p>
-                    <p>+44 20 8144 0201</p>
+                    <p>488, B Scheme No:136, Vijay Nagar, Indore, India</p>
+                    <a
+                      href="/Contact"
+                      style={{
+                        fontSize: "18px",
+                        color: "white",
+                      }}
+                    >
+                      contact us
+                    </a>
+                    <p>+91 9399206406</p>
                   </div>
                 </div>
               </Col>

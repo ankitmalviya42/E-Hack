@@ -5,35 +5,11 @@
   },
 
   {
-    "coursetext": "Advanced Diploma in Cyber Defenfse",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Certified Penetration Tester",
+    "coursetext": "",
     "image": "https://picsum.photos/200/300"
   },
   {
     "coursetext": "Bug Bounty Hunter",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Computer Hacking Forensic Investigator",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Secure Software Deveploment",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Threat Intelligence",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Phishing Simulation & Awareness",
-    "image": "https://picsum.photos/200/300"
-  },
-  {
-    "coursetext": "Certified IT Infrastructure Cyber SOC Analyst",
     "image": "https://picsum.photos/200/300"
   }
 ]

@@ -30,10 +30,9 @@ function Imagegallery() {
                   network.
                 </p>
 
-                <br />
                 <div className="consultancy-img-right-column">
                   <img
-                    src="https://picsum.photos/200/300"
+                    src="https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aGFja2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                     alt="not found"
                     className="Image-gallery-img-tag"
                   />
@@ -47,7 +46,7 @@ function Imagegallery() {
 
                 <div className="consultancy-img-right-column">
                   <img
-                    src="https://picsum.photos/200/300"
+                    src="https://images.unsplash.com/photo-1561736778-92e52a7769ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGhhY2tpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                     alt="not found"
                     className="Image-gallery-img-tag"
                   />
@@ -65,7 +64,7 @@ function Imagegallery() {
                 <div className="right-colunm">
                   <div className="consultancy-img-right-column">
                     <img
-                      src="https://picsum.photos/200/300"
+                      src="https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFja2luZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                       alt="not found"
                       className="Image-gallery-img-tag"
                     />
@@ -74,11 +73,10 @@ function Imagegallery() {
                   <div className="course-name-heading">
                     <h1>Consultancy</h1>
                   </div>
-                  <br /> <br />
-                  <br />
+
                   <div className="consultancy-img-right-column">
                     <img
-                      src="https://picsum.photos/200/300"
+                      src="https://images.unsplash.com/photo-1509966756634-9c23dd6e6815?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                       alt="not found"
                       className="Image-gallery-img-tag"
                     />

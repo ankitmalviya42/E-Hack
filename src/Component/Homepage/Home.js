@@ -1,22 +1,19 @@
 import React from "react";
-import EHack from "../../assets/Images/ehack.jpg";
-import { Image, Jumbotron, Container, Col, Row } from "react-bootstrap";
-import MostpopularPost from "./subComponent/MostpopularPost";
+import { Jumbotron, Container, Col, Row } from "react-bootstrap";
 import OurServices from "./subComponent/OurServices";
 import Footer from "../Footer/Footer";
 import "../../assets/css/Homepage/Homepage.css";
 import Imagegallery from "./subComponent/Imagegallery";
+import MainImage from "./subComponent/MainImage";
 
 function Home() {
   return (
     <div className="Home-div">
-      <div>
-        <Image src={EHack} fluid />
-      </div>
-      <br />
-      <br />
+      <MainImage />
       <br />
 
+      <OurServices />
+      <br />
       <Container fluid>
         <Row>
           {/* First column */}
@@ -74,9 +71,6 @@ function Home() {
           </Col>
         </Row>
       </Container>
-
-      <OurServices />
-      <MostpopularPost />
       <Imagegallery />
       <Footer />
     </div>

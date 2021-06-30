@@ -1,0 +1,95 @@
+.about {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+.about h1 {
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.about h2 {
+  opacity: 0.2;
+}
+.about span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  font-size: 40px;
+  color: hsl(0, 3%, 6%);
+  opacity: 1;
+  background-color: #f0ebeb;
+  border: 2px solid #ffffff;
+  font-size: 2rem;
+  webkit-transition: all 0.5s ease;
+  moz-transition: all 0.5s ease;
+  os-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.about-item:hover span {
+  opacity: 1;
+  border: 2px solid #2a664a;
+  font-size: 42px;
+  -webkit-transform: scale(1.1, 1.1) rotate(360deg);
+  -moz-transform: scale(1.1, 1.1) rotate(360deg);
+  -o-transform: scale(1.1, 1.1) rotate(360deg);
+  transform: scale(1.1, 1.1) rotate(360deg);
+}
+.about-item:hover h2 {
+  opacity: 1;
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.about .lead {
+  color: #fcfcfc;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10%;
+}
+
+.section_text {
+  padding-top: 30px;
+}
+.about_text_content {
+  font-size: 16px;
+}
+.about_our_Highlights {
+  font-size: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+}
+.about_our_Highlights_below {
+  font-size: 20px;
+}
+
+.about_aboutus {
+  font-size: 50px;
+}
+
+.About_Our_Vision {
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10%;
+}
+.About_Our_Vision {
+  font-size: 20px;
+  color: #000000;
+  padding: 2%;
+}
+.About_Our_Mission {
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 10%;
+}
+.About_Our_Mission {
+  font-size: 20px;
+  color: #000000;
+  padding: 2%;
+}

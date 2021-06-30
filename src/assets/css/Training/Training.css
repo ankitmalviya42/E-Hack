@@ -1,0 +1,39 @@
+.main_div {
+  background-color: black;
+  color: white;
+}
+.training_vapt_heading {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2%;
+}
+.training_image_column1 {
+  padding: 1%;
+  align-items: right;
+  justify-content: center;
+  display: flex;
+}
+.Training_solution {
+  margin-top: 2%;
+  letter-spacing: 2px;
+  padding: 2%;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.Training_solution_li {
+  padding: 1%;
+}
+
+.Solution_detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+.Training_Card {
+  color: rgb(241, 241, 241);
+  margin: 2%;
+}

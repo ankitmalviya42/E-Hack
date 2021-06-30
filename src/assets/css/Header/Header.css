@@ -1,0 +1,29 @@
+.Navbar_Link {
+  color: #f9f9f9;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.05rem;
+}
+.Navbar_Link:hover {
+  color: #26452e;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+  transition: 500ms;
+  border-radius: 25px;
+}
+
+.Navbar_Link1 {
+  color: #f9f9f9;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.05rem;
+}
+.Navbar_Link1:hover {
+  color: #26452e;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+  transition: 500ms;
+  border-radius: 25px;
+}
